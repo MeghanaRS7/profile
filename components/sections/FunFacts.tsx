@@ -45,7 +45,7 @@ export default function FunFacts() {
             Fun Facts About Me
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Beyond the code - here's what makes me tick!
+            Beyond the code - here&apos;s what makes me tick!
           </p>
         </motion.div>
 

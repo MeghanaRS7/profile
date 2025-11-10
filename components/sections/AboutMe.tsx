@@ -128,15 +128,15 @@ export default function AboutMe() {
               className="space-y-6 text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed"
             >
               <motion.p variants={itemVariants}>
-                I'm{" "}
+                I&apos;m{" "}
                 <span className="font-semibold text-blue-600 dark:text-blue-400">
                   Meghana
                 </span>{" "}
-                — a curious, hands-on engineer who cares about people as much as the systems I build. I've worked across backend pipelines, frontend platforms, and large-scale systems at Amazon, always with a focus on performance, clarity, and impact. I love simplifying complexity, collaborating across disciplines, and creating products that actually make someone's day easier.
+                — a curious, hands-on engineer who cares about people as much as the systems I build. I&apos;ve worked across backend pipelines, frontend platforms, and large-scale systems at Amazon, always with a focus on performance, clarity, and impact. I love simplifying complexity, collaborating across disciplines, and creating products that actually make someone&apos;s day easier.
               </motion.p>
 
               <motion.p variants={itemVariants}>
-                Outside work, I love creating and learning through doing whether it's cooking, experimenting with ideas, or building small projects that make life a little easier or more fun. I enjoy moments of creativity, connection, and discovery, the same energy I bring into the things I build.
+                Outside work, I love creating and learning through doing whether it&apos;s cooking, experimenting with ideas, or building small projects that make life a little easier or more fun. I enjoy moments of creativity, connection, and discovery, the same energy I bring into the things I build.
               </motion.p>
             </motion.div>
           </motion.div>

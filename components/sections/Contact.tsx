@@ -86,7 +86,7 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Have a project in mind or just want to chat? Let's connect!
+            Have a project in mind or just want to chat? Let&apos;s connect!
           </p>
         </motion.div>
 

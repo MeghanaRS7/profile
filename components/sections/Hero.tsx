@@ -55,7 +55,7 @@ export default function Hero() {
               transition={{ delay: 0.2, duration: 0.6 }}
             >
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                <span className="text-gray-900 dark:text-white">Hi, I'm </span>
+                <span className="text-gray-900 dark:text-white">Hi, I&apos;m </span>
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent">
                   Meghana
                 </span>
@@ -66,7 +66,7 @@ export default function Hero() {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 font-light leading-relaxed mb-8"
               >
-                Welcome! I'm passionate about creating meaningful experiences through thoughtful engineering and design.
+                Welcome! I&apos;m passionate about creating meaningful experiences through thoughtful engineering and design.
               </motion.p>
 
               <motion.div
