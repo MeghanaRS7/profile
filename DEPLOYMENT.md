@@ -28,10 +28,10 @@ git push -u origin main
 ### Step 3: Add Environment Variables
 
 1. In your Vercel project dashboard, go to **Settings** → **Environment Variables**
-2. Add these three variables:
-   - `NEXT_PUBLIC_EMAILJS_SERVICE_ID` = `service_629tx1k`
-   - `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID` = `template_asde5qs`
-   - `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY` = `-rwUEEezOsVn6x8z-`
+2. Add these three variables with your actual EmailJS credentials:
+   - `NEXT_PUBLIC_EMAILJS_SERVICE_ID` = `your_service_id`
+   - `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID` = `your_template_id`
+   - `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY` = `your_public_key`
 3. Make sure to select **Production**, **Preview**, and **Development** environments
 4. Click **Save**
 
@@ -74,4 +74,3 @@ GitHub Pages doesn't work well with Next.js because:
 - Check all dependencies are in `package.json`
 - Ensure TypeScript errors are fixed
 - Check Vercel build logs for specific errors
-
