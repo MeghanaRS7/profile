@@ -73,7 +73,7 @@ export default function Education() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
           {education.map((edu, index) => (
             <motion.div
               key={index}
@@ -82,7 +82,7 @@ export default function Education() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.01 }}
-              className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all border border-gray-100 dark:border-gray-700"
+              className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all border border-gray-100 dark:border-gray-700 flex flex-col"
             >
               <div className="flex items-center justify-between mb-6 pb-6 border-b border-gray-200 dark:border-gray-700">
                 <div className="flex items-center space-x-4">
@@ -121,7 +121,7 @@ export default function Education() {
                 )}
               </div>
 
-              <div>
+              <div className="flex flex-col">
                 <p className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">
                   {edu.degree}
                 </p>
@@ -131,7 +131,7 @@ export default function Education() {
 
                 <button
                   onClick={() => toggleExpanded(index)}
-                  className="flex items-center space-x-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                  className="flex items-center space-x-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors mb-0"
                 >
                   <span>
                     {expandedIndex === index ? "Show less" : "Learn more"}

@@ -66,7 +66,7 @@ export default function Hero() {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 font-light leading-relaxed mb-8"
               >
-                Welcome! I&apos;m passionate about creating meaningful experiences through thoughtful engineering and design.
+                I&apos;m passionate about creating meaningful experiences through thoughtful engineering and design.
               </motion.p>
 
               <motion.div

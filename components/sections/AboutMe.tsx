@@ -132,11 +132,18 @@ export default function AboutMe() {
                 <span className="font-semibold text-blue-600 dark:text-blue-400">
                   Meghana
                 </span>{" "}
-                — a curious, hands-on engineer who cares about people as much as the systems I build. I&apos;ve worked across backend pipelines, frontend platforms, and large-scale systems at Amazon, always with a focus on performance, clarity, and impact. I love simplifying complexity, collaborating across disciplines, and creating products that actually make someone&apos;s day easier.
+                a curious, hands-on engineer who loves building things that make
+                life a little simpler. At Amazon, I’ve worked across backend
+                systems and frontend platforms, always focused on clarity,
+                performance, and real impact. I enjoy solving tricky problems
+                with a mix of logic, creativity, and collaboration.
               </motion.p>
 
               <motion.p variants={itemVariants}>
-                Outside work, I love creating and learning through doing whether it&apos;s cooking, experimenting with ideas, or building small projects that make life a little easier or more fun. I enjoy moments of creativity, connection, and discovery, the same energy I bring into the things I build.
+                Outside work, you’ll find me cooking, exploring ideas, or
+                tinkering with side projects. I love experimenting, whether it’s
+                trying a new recipe, building a quick tool, or finding small
+                ways to bring a creative twist into the everyday.
               </motion.p>
             </motion.div>
           </motion.div>

@@ -27,10 +27,24 @@ On the backend, I re-architected a distributed backend system on AWS using a hig
 
 I also developed an observability automation framework using AWS CDK to provision dashboards, alarms, and readiness checks across services. This automation unified metric visibility, reduced manual setup time, and strengthened operational resilience during incidents.
 
-I led the migration design for Java backend controllers that powered core merchandising and shopping experiences. Redefined data flow to the frontend, formalized contracts, added validation, and ran A/B tests to ensure reliability—rolling out patterns adopted by other teams.
+I led the migration design for Java backend controllers that powered core merchandising and shopping experiences. Redefined data flow to the frontend, formalized contracts, added validation, and ran A/B tests to ensure reliability rolling out patterns adopted by other teams.
 
 In addition to development, I actively contributed to on-call rotations, led incident triage, maintained runbooks, and partnered with cross-functional teams to resolve live issues efficiently. I also supported new engineer onboarding, facilitated lunch-and-learns, and fostered a culture of shared learning and operational excellence across the team.`,
-    techStack: ["Java", "Python", "React", "TypeScript", "AWS", "SageMaker", "Apache Spark", "EventBridge", "Step Functions", "AWS Glue", "Athena", "AWS CDK", "CloudWatch"],
+    techStack: [
+      "Java",
+      "Python",
+      "React",
+      "TypeScript",
+      "AWS",
+      "SageMaker",
+      "Apache Spark",
+      "EventBridge",
+      "Step Functions",
+      "AWS Glue",
+      "Athena",
+      "AWS CDK",
+      "CloudWatch",
+    ],
   },
   {
     company: "SCU Swades",

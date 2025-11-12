@@ -7,17 +7,20 @@ const funFacts = [
   {
     emoji: "🪴",
     title: "Plant Parent",
-    description: "I somehow ended up with 30 plants!! from monsteras to mint. Bought a random seed pack once, now it’s a full-blown jungle experiment.",
+    description:
+      "I somehow ended up with 30 plants!! from monsteras to mint. Bought a random seed pack once, now it’s a full-blown jungle experiment.",
   },
   {
     emoji: "🍳",
-    title: "Creative Cook",
-    description: "Cooking is my love language. It’s where I unwind, play with flavors, and spend way too much time perfecting comfort food.",
+    title: "Cooking Romantic",
+    description:
+      "Cooking is my love language. It’s where I unwind, play with flavors, and spend way too much time perfecting comfort food.",
   },
   {
     emoji: "🎨",
-    title: "Creative Chaos Specialist",
-    description: "Crocheting, skiing, painting, hiking, piano, dance, gaming... I've tried it all. Chaos? Maybe. But it's the best kind of creative mess.",
+    title: "Inspired Generalist",
+    description:
+      "Crocheting, skiing, painting, hiking, piano, dance, gaming... I've tried it all. Thrive on variety, the kind that keeps life colorful and ideas constantly flowing.",
   },
 ];
 
@@ -71,7 +74,9 @@ export default function FunFacts() {
                 <div className="absolute inset-0 backface-hidden bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-lg flex flex-col items-center justify-center border-2 border-gray-200 dark:border-gray-700">
                   <motion.div
                     className="text-6xl mb-4"
-                    animate={flippedIndex === index ? { rotate: [0, 10, -10, 0] } : {}}
+                    animate={
+                      flippedIndex === index ? { rotate: [0, 10, -10, 0] } : {}
+                    }
                     transition={{ duration: 0.5 }}
                   >
                     {fact.emoji}

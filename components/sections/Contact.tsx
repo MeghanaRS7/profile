@@ -53,12 +53,13 @@ export default function Contact() {
         publicKey
       );
 
-      toast.success("Message sent successfully! I'll get back to you soon.");
+      toast.success("Message sent successfully! I&apos;ll reach out soon.");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Error sending email:", error);
       toast.error(
-        "Failed to send message. Please try again or email me directly."
+        "Failed to send message. Find me here: meghana.rshastry@gmail.com",
+        { duration: 5000 }
       );
     } finally {
       setIsSubmitting(false);
